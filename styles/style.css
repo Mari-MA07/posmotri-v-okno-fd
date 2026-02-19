@@ -290,11 +290,6 @@ ol {
   text-decoration: underline;
 }
 
-.search-form__label:has(:focus-visible) {
-  padding: 1px;
-  outline: 1px solid #fff;
-}
-
 .button {
   font-family: "Fira Sans Condensed", "Arial";
   font-weight: 700;
