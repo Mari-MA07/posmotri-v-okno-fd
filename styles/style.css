@@ -8,16 +8,6 @@ html {
   block-size: 100%;
 }
 
-.page {
-  inline-size: 1200px;
-  block-size: 100%;
-  margin: auto;
-  color: #fff;
-  font-family: "Fira Sans Condensed", sans-serif;
-  font-size: 18px;
-  background-color: #1b1919;
-}
-
 h1,
 h2,
 h3,
@@ -54,6 +44,13 @@ ol {
   display: flex;
   justify-content: center;
   align-items: center;
+  inline-size: 1200px;
+  block-size: 100%;
+  margin: auto;
+  color: #fff;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 18px;
+  background-color: #1b1919;
 }
 
 .content {
@@ -88,10 +85,6 @@ ol {
 .content__details {
   height: 100%;
   width: 100%;
-}
-
-.title {
-  margin-bottom: 24px;
 }
 
 .result {
@@ -151,6 +144,7 @@ ol {
   line-height: 94%;
   letter-spacing: 0%;
   text-transform: uppercase;
+  margin-bottom: 24px;
 }
 
 .content__accent {
@@ -256,6 +250,7 @@ ol {
   border-left: none;
   border-right: none;
   appearance: none;
+  text-decoration: none;
 }
 
 .search-form__textfield::placeholder {
@@ -289,10 +284,6 @@ ol {
 
 .search-form__checkbox:checked + ::after {
   opacity: 1;
-}
-
-.search-form__textfield {
-  text-decoration: none;
 }
 
 .search-form__label:hover .search-form__label-text {
