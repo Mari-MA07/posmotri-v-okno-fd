@@ -57,7 +57,6 @@ ol {
   display: flex;
   gap: 30px;
   width: 1140px;
-  height: 534px;
 }
 
 .search-form {
@@ -71,15 +70,15 @@ ol {
   display: flex;
   flex-direction: column;
   overflow-y: auto;
-  overflow-x: hidden;
   height: 298px;
   width: 399px;
   padding-right: 3px;
+  padding-left: 3px;
   padding-bottom: 3px;
 }
 
 .content__list-item {
-  margin: 2px 0 4px 2px;
+  margin-top: 2px;
 }
 
 .content__details {
@@ -107,7 +106,7 @@ ol {
 .content__list {
   display: flex;
   flex-direction: column;
-  gap: 23px;
+  gap: 28px;
 }
 
 .content__video-card-thumbnail {
@@ -129,7 +128,7 @@ ol {
 .search-form__fieldset-title {
   font-family: "Fira Sans Condensed", "Arial";
   font-weight: 400;
-  font-style: "Regular";
+  font-style: normal;
   font-size: 18px;
   line-height: 100%;
   letter-spacing: 0;
@@ -139,7 +138,6 @@ ol {
 .title {
   font-family: "Oswald", "Arial";
   font-weight: 700;
-  font-style: "Bold";
   font-size: 75px;
   line-height: 94%;
   letter-spacing: 0%;
@@ -180,7 +178,6 @@ ol {
   padding-bottom: 2px;
   font-family: "Oswald", "Arial";
   font-weight: 700;
-  font-style: "Bold";
   font-size: 30px;
   text-transform: uppercase;
   line-height: 100%;
@@ -192,21 +189,22 @@ ol {
 }
 
 .content__video-card-description {
-  line-clamp: 3;
   display: -webkit-box;
   -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
   overflow: hidden;
   font-family: "Fira Sans Condensed", "Arial";
   font-weight: 400;
-  font-style: "Regular";
+  font-style: normal;
   font-size: 18px;
-  line-height: 1;
+  line-height: 16.2px;
   letter-spacing: 0%;
   margin-top: 2px;
   margin-bottom: 2px;
   max-width: 196px;
   word-wrap: break-word;
   padding-bottom: 2px;
+  color: #fff;
 }
 
 .visually-hidden {
@@ -238,7 +236,7 @@ ol {
 
 .search-form__textfield {
   font-family: "Fira Sans Condensed", "Arial";
-  font-style: "Normal";
+  font-style: normal;
   font-size: 18px;
   line-height: 100%;
   letter-spacing: 0%;
@@ -293,27 +291,23 @@ ol {
 .button {
   font-family: "Fira Sans Condensed", "Arial";
   font-weight: 700;
-  font-style: bold;
   font-size: 18px;
   line-height: 100%;
   letter-spacing: 0%;
   border: 1px solid #fff;
   color: #fff;
   background-color: transparent;
-  margin: 1px;
   cursor: pointer;
+  min-height: 34px;
 }
 
 .search-form__submit-button {
   align-self: flex-end;
-  height: 34px;
   width: 194px;
 }
 
 .more-button {
-  min-height: 34px;
   width: 100%;
-  margin-left: 2px;
   margin-top: 25px;
 }
 
